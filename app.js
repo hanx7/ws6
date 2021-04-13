@@ -4,7 +4,7 @@ app.use(express.json())  // replaces body-parser
 
 
 // connect to models to routes
-require('./models') 
+require('./models')
 const authorRouter = require('./routes/authorRouter')
 
 
